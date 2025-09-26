@@ -1,0 +1,28 @@
+<h1>Welcome to my map project!</h1>
+<div class="grid">
+    <div #mapContainer class="mapContainer" [innerHtml]="mapData"></div>
+    <div class="countryfacts">
+        <table>
+            <tr>
+                <td>Country Name:</td>
+                <td>{{ countryName }}</td>                
+            </tr>
+            <tr>
+                <td>Country Capital:</td>
+                <td>{{ countryCapital }}</td>
+            </tr>
+            <tr>
+                <td>Country Region:</td>
+                <td>{{ countryRegion }}</td>
+            </tr>
+            <tr>
+                <td>Income Level:</td>
+                <td>{{ incomeLevel }}</td>
+            </tr>
+            <tr>
+                <td>Latitude and Longitude:</td>
+                <td>{{ latitude}} | {{ longitude }}</td>
+            </tr>
+        </table>
+    </div>
+</div>
